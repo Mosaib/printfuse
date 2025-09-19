@@ -9,7 +9,8 @@
 
 
 5. After successful migration, start the server:
-   ```bash php artisan serve
+   ```bash
+   php artisan serve
 6. Open the frontend folder and launch index.html in your browser.
 
 7. For video [Youtube for screen recording](https://www.youtube.com/watch?v=4RNCijb-ApM)
