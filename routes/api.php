@@ -21,4 +21,5 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::put('/companyUpdate', [CompanyController::class, 'update']);
     Route::delete('/companyDelete', [CompanyController::class, 'destroy']);
     Route::post('/company/switch', [CompanyController::class, 'switchActiveCompany']);
+    Route::get('/company/active', [CompanyController::class, 'getActiveCompany']);
 });
