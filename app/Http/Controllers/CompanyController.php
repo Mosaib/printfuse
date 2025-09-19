@@ -120,4 +120,21 @@ class CompanyController extends Controller
         ]);
     }
 
+
+    //get active company
+    public function getActiveCompany(Request $request)
+    {
+        $company = Activecompany::where('user_id', Auth::id())->first();
+
+        if (!$company) {
+            return response()->json(['message' => 'You do not have any active company.']);
+        }
+        $activecompanyResource = new ActiveCompanyResource($company);
+        return response()->json([
+            'status' => 'success',
+            'message' => 'Active company fetched successfully',
+            'data' => $activecompanyResource
+        ]);
+    }
+
 }
