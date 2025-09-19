@@ -14,3 +14,4 @@
 6. Open the frontend folder and launch index.html in your browser.
 
 7. For video [Screen recording](https://www.youtube.com/watch?v=4RNCijb-ApM)
+8. Attached APIs collection PrintFuse.postman_collection.json
