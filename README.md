@@ -13,4 +13,4 @@
    php artisan serve
 6. Open the frontend folder and launch index.html in your browser.
 
-7. For video [Youtube for screen recording](https://www.youtube.com/watch?v=4RNCijb-ApM)
+7. For video [Screen recording](https://www.youtube.com/watch?v=4RNCijb-ApM)
